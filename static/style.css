@@ -1,0 +1,71 @@
+body {
+	background-color: black;
+	color: white;
+
+}
+
+.center{
+	text-align: center;
+}
+
+ul{
+	list-style:none;
+}
+
+
+#button{
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#main-header{
+	background-color: blue;
+	text-align: center;
+}
+
+#picture{
+	text-align: center;
+	background-image:url('../static/images/Background.jpg');
+	background-position: center;
+	min-height: 300px
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#about-me{
+	text-align: center;
+	font-size: 18px;
+	padding: 30px;
+	border-style: solid;
+	border-color: blue;
+}
+
+#random-facts{
+	float: left;
+	width: 60%;
+	padding: 0 30px;
+	margin-top: 100px;
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: blue;
+}
+
+.fact-header{
+	text-align: center;
+	padding: 10px;
+}
+
+#fun-picture{
+	float: right;
+	width: 40%;
+	padding-top: 20px;
+	padding-left: 50px;
+	box-sizing: border-box;
+}
+
+#return-home{
+	font-color: coral;
+	text-align: center;
+}

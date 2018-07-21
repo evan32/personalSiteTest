@@ -1,0 +1,83 @@
+
+<head>
+    <meta name="description" content= "Person website by Erik Van">
+ 	<link rel="stylesheet" type="text/css" href="../static/style.css">
+</head>
+
+<body>
+	{% extends "base.html" %}
+	{% block body %}
+ 	<section>
+ 		<article id="picture">
+ 			<img src="../static/images/profilePicture.jpg" alt="My Profile Picture" width="500">
+ 		</article>
+
+ 		<article id="about-me">
+ 			<h2> Nice to meet you! Here is a little more about me... </h2>
+ 			<p>
+ 				Hey there! My name is Erik, and I am a rising junior at Stanford University. I'm majoring in electrical engineering with the hopes of one day playing with renewable energy! I grew up in Phoenix, Arizona (ask me about our beautiful sunsets) where I absolutely fell in love with nature and the outdoors. I’m absolutely stoked to join the Code for Palestine program!
+ 			</p>
+ 		</article>
+
+ 		<article id="random-facts">
+ 			<h2 class="center"> Here are 3 Random Facts about Erik!! </h2>
+ 			<ul>
+ 				<li> 
+ 					<div class="fact-header"> 
+ 						Fact 1:
+ 					</div>
+ 					<div>			
+	 					My favorite phrase is “Adventure is out there!” from the greatest movie of 2009, “Up”. This quote captures some of the aspects I love most: adventure, possibility, and enthusiasm. 
+	 				</div>
+	 			</li>
+
+	 			<li>
+	 				<div class="fact-header">
+	 					Fact 2:
+	 				</div>
+	 				<div>
+	 					Despite not ever cheering before, I’m on the Varsity Stanford Cheer team! I also found myself coaching gymnastics for the Stanford Youth Club team. Disclaimer: prior to my first day of work, I’ve never step foot in a gymnastics gym before (*shrugs*).
+	 				</div>
+	 			</li>
+
+	 			<li>
+	 				<div class="fact-header">
+	 					Fact 3:
+	 				</div>
+	 				<div>
+	 					I love doing flips! 
+	 				</div>
+	 			</li>
+
+ 			</ul>
+ 			
+ 		</article>
+
+ 		<article id="fun-picture">
+ 			<img src="../static/images/funPicture.jpg" alt="My Profile Picture" width="300" height="500">
+ 		</article>
+
+ 		<article id="return-home">
+ 			<a href="homePage.html">Return to home page </a>
+ 		</article>
+
+ 		<div id="button">
+ 			<button type="button" onclick='myFunction()'> Click Me!</button>
+ 		</div>
+
+
+ 		<script type="text/javascript">
+ 			function myFunction() {
+ 				document.getElementById("main-header").innerHTML = "My name is actually Michelle!";
+ 				document.getElementById("main-header").style.fontSize = "xx-large";
+ 				document.getElementById("main-header").style.color = "pink";
+ 			}
+ 		</script>
+
+ 	</section>
+
+ 	<div style="margin-top:200px;">	</div>
+ </body>
+
+ {%endblock %}
+</html>

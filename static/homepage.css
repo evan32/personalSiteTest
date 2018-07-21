@@ -1,0 +1,35 @@
+body {
+	background-color: black;
+	color: white;
+
+}
+
+a:hover {
+	color: coral;
+	background-color: blue;
+}
+
+#main-header{
+	background-color: blue;
+	text-align: center;
+}
+
+#navbar{
+	background-color: grey;
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size: 36px;
+	padding-right:15px;
+}

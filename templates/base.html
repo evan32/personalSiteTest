@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> {{title}} </title>
+    <meta name="description" content= "Person website by Erik Van">
+ 	<link rel="stylesheet" type="text/css" href="../static/homepage.css">
+</head>
+<body>
+	<header id="main-header">
+			<h1>Welcome to Erik's Homepage</h1>
+	</header>
+
+	<nav id="navbar">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="about">About</a></li>
+				<li><a href="food">Favorite Food</a></li>
+				<li><a href="movies">Favorite Movies</a></li>
+				<li><a href="contact">Contact Me </a></li>
+			</ul>
+	</nav>
+
+	{% block body %}{% endblock %}
+
+
+</body>
+</html>
