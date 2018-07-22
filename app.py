@@ -11,7 +11,6 @@ userTable.insert(dict(name="Erik", age=20))
 print(db.tables)
 print(db['user'].columns)
 print(list(db['user'].all()))
-print(table.finds(name='Erik'))
 
 
 
